@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>World Happiness Tour</title>
+
+        <!-- Javascripts to be imported -->
+        
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/numeric/1.2.6/numeric.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://d3js.org/d3.v3.min.js"></script>
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <script src="https:/unpkg.com/d3-3d/build/d3-3d.js"></script>
+
+        <!-- <link rel="stylesheet" media="screen" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../static/assets.css" type="text/css">
+        
+    </head>
+
+    <body>
+    
+        <div class="container-fluid">
+            
+            <div class="row">
+                    <center><h1>World Happiness Tour</h1></center>
+                    <div class="col-md-12 jumbotron text-center">
+                        <button type="button" class="btn btn-default">Visualizaions</button>
+                    </div>
+                     
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Introduction</div>
+                            <div class="panel-body">
+                                <p>The World Happiness Report is a landmark survey of the state of global happiness. The first report was published in 2012, the second in 2013, the third in 2015, and the fourth in the 2016 Update. The World Happiness 2017, which ranks 155 countries by their happiness levels, was released at the United Nations at an event celebrating International Day of Happiness on March 20th. The report continues to gain global recognition as governments, organizations and civil society increasingly use happiness indicators to inform their policy-making decisions. Leading experts across fields – economics, psychology, survey analysis, national statistics, health, public policy and more – describe how measurements of well-being can be used effectively to assess the progress of nations. The reports review the state of happiness in the world today and show how the new science of happiness explains personal and national variations in happiness.
+                                    Inspiration
+                                    What countries or regions rank the highest in overall happiness and each of the six factors contributing to happiness? How did country ranks or scores change between the 2015 and 2016 as well as the 2016 and 2017 reports? Did any country experience a significant increase or decrease in happiness?
+                                </p>
+                            </div>    
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h2 id="current"></h2>
+                    <canvas id="globe"></canvas>
+                </div>
+                
+            </div>
+            <div class= 'row'>
+                <div class="col-md-2"></div>
+                <div class="col-md-10"></div>
+                    <div id='3d-plot'></div>
+                </div>
+                
+            </div>
+             
+
+            
+        </div>
+        
+        <script src="../static/search.js" type="text/Javascript">
+        <script src="../static/globe.js" type="text/Javascript">
+        console.log("I am here")
+        </script>
+    
+    <div class = "container-fluid">
+        <footer>
+            <p> @ Project 2 - World Hapiness Visualizaions</p>
+        </footer>
+    </div>      
+    
+    </body>
+</html>
