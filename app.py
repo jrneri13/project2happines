@@ -46,7 +46,7 @@ def country():
     all_countries = list(np.ravel(results))
     return jsonify(all_countries)
 
-#route for country scores no rank
+#Main Route
 @app.route('/country/scores')
 def countryScores():
     results = session.query(happinessData).all()
@@ -62,6 +62,10 @@ def countryScores():
         countries_dic['freedom'] = country.Freedom
         countries_dic['generosity'] = country.Generosity
         countries_dic['trust'] = country.Trust
+        countries_dic['rank'] = country.Rank
+        countries_dic['country_code'] = country.CountryCode
+        countries_dic['latitude'] = country.Latitude
+        countries_dic['longitude'] = country.Longitude
         all_country_scores.append(countries_dic)
     return jsonify(all_country_scores)
 
