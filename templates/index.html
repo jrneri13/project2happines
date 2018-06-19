@@ -16,25 +16,64 @@
         <script src="https://code.jquery.com/jquery.js"></script>
         <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <script src="https:/unpkg.com/d3-3d/build/d3-3d.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
         <!-- <link rel="stylesheet" media="screen" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="../static/assets.css" type="text/css">
-        
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     </head>
 
     <body>
-    
+        <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                            </button>
+                            <div class="col-md-1"></div>
+                                    <div class="col-md-1"></div>
+                                    <div class="col-md-1"></div>
+                                    <a class="navbar-brand" href="index.html" style="color: white; background-color: teal;">
+                                        <span class="nav-color">World Happiness Report</span>
+                                    </a>
+                            </div>
+            
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="dropdown">
+                                        <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="../static/3dindex.html">3D Visualizaions</a></li>
+                                                
+                                            </ul>
+                                    </li>
+                                    <!-- <li><a href="comparisons.html">Comparisons</a></li>
+                                    <li><a href="data.html">Data</a></li> -->
+                                </ul>
+                            </div>    
+                    </div>
+            </div>
+        </nav>
+             
         <div class="container-fluid">
             
-            <div class="row">
+            <!-- <div class="row">
                     <center><h1>World Happiness Tour</h1></center>
                     <div class="col-md-12 jumbotron text-center">
                         <button type="button" class="btn btn-default">Visualizaions</button>
                     </div>
                      
                 </div>
-            </div>
+            </div> -->
+            
             <div class="row">
                 <div class="col-md-8">
                     <div class="panel panel-default">
@@ -48,27 +87,35 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <h2 id="current"></h2>
-                    <canvas id="globe"></canvas>
+                    <img src="../static/Rotating_globe.gif" alt="World Map">
                 </div>
+            </div>   
+                        
+            <!-- <div class ='row'>
                 
-            </div>
-            <div class= 'row'>
-                <div class="col-md-2"></div>
-                <div class="col-md-10"></div>
-                    <div id='3d-plot'></div>
-                </div>
-                
-            </div>
-             
-
+                <div class = 'col-md-3'></div>
+                <div class = 'col-md-4'>
+                <h2>World Happiness Factors</h2>
+                <select id="selDataset" onchange="optionChanged(this.value)">
+                    <option value="GDPvsFreedom">GDP and Freedom</option>
+                    <option value="FamilyvsHealth">Family and Health</option>
+                    <option value="TurstvsGenerostiy">Trust and Generosity</option>
+                </select>
+                <div id="3d-plot"></div>
+                <script src="../static/3dplot.js"></script>
+            </div> -->
+            </div>  
             
-        </div>
+            
+        </div>    
+
         
-        <script src="../static/search.js" type="text/Javascript">
-        <script src="../static/globe.js" type="text/Javascript">
-        console.log("I am here")
-        </script>
+        
+        <!-- <script src="../static/globe.js" type="text/Javascript"></script>
+        <script src="../static/search.js" type="text/Javascript"></script> -->
+        
+        
+        
     
     <div class = "container-fluid">
         <footer>
