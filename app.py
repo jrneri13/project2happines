@@ -159,5 +159,16 @@ def geoData():
         geoData.append(geoData_dic)
     return jsonify(geoData)
 
+#blank routes
+@app.route('/addMapData')
+def addMapData():
+    addMapData = []
+    return(addMapData)
+
+@app.route('/addMapData2')
+def AddMapData2():
+    AddMapData2 = []
+    return(AddMapData2)
+
 if __name__ == '__main__':
     app.run(debug=True)
