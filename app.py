@@ -16,27 +16,20 @@ session = Session(engine)
 app = Flask(__name__)
 
 #home route for HTML template
-# @app.route('/')
-# def home():
-#     return render_template('index.html')
+@app.route('/')
+def home():
+    return render_template('index.html')
 
 #provisional welcome page
-@app.route('/')
-def welcome():
-    return(
-        f'available Routes:<br/>'
-        f'/country<br/>'
-        f'/country/scores<br/>'
-        f'/countryRank<br/>'
-        f'/geoData<br/>'
-        f'/economy<br/>'
-        f'/family<br/>'
-        f'/freedom<br/>'
-        f'/economy<br/>'
-        f'/health<br/>'
-        f'/corruption'
-
-    )
+# @app.route('/')
+# def welcome():
+#     return(
+#         f'available Routes:<br/>'
+#         f'/country<br/>'
+#         f'/country/scores<br/>'
+#         f'/countryRank<br/>'
+#         f'/geoData'
+#     )
 
 #route for country list
 @app.route('/country')
@@ -84,65 +77,65 @@ def countryRank():
     return jsonify(country_rank)
 
 #bar chart routes
-@app.route('/economy')
-def economy():
-    results = session.query(happinessData).all()
+# @app.route('/economy')
+# def economy():
+#     results = session.query(happinessData).all()
 
-    economy_rank = []
-    for country in results:
-        economy_dic ={}
-        economy_dic['country'] = country.Country
-        economy_dic['gdp_score'] = country.GDP
-        economy_rank.append(economy_dic)
-    return jsonify(economy_rank) 
+#     economy_rank = []
+#     for country in results:
+#         economy_dic ={}
+#         economy_dic['country'] = country.Country
+#         economy_dic['gdp_score'] = country.GDP
+#         economy_rank.append(economy_dic)
+#     return jsonify(economy_rank) 
 
-@app.route('/family')
-def family():
-    results = session.query(happinessData).all()
+# @app.route('/family')
+# def family():
+#     results = session.query(happinessData).all()
 
-    family_rank = []
-    for country in results:
-        family_dic ={}
-        family_dic['country'] = country.Country
-        family_dic['family_score'] = country.Family
-        family_rank.append(family_dic)
-    return jsonify(family_rank)
+#     family_rank = []
+#     for country in results:
+#         family_dic ={}
+#         family_dic['country'] = country.Country
+#         family_dic['family_score'] = country.Family
+#         family_rank.append(family_dic)
+#     return jsonify(family_rank)
 
-@app.route('/health')
-def health():
-    results = session.query(happinessData).all()
+# @app.route('/health')
+# def health():
+#     results = session.query(happinessData).all()
 
-    health_rank = []
-    for country in results:
-        health_dic ={}
-        health_dic['country'] = country.Country
-        health_dic['health_score'] = country.LifeExpectancy 
-        health_rank.append(health_dic)
-    return jsonify(health_rank)
+#     health_rank = []
+#     for country in results:
+#         health_dic ={}
+#         health_dic['country'] = country.Country
+#         health_dic['health_score'] = country.LifeExpectancy 
+#         health_rank.append(health_dic)
+#     return jsonify(health_rank)
 
-@app.route('/freedom')
-def freedom():
-    results = session.query(happinessData).all()
+# @app.route('/freedom')
+# def freedom():
+#     results = session.query(happinessData).all()
 
-    freedom_rank = []
-    for country in results:
-        freedom_dic ={}
-        freedom_dic['country'] = country.Country
-        freedom_dic['freedom_score'] = country.Freedom
-        freedom_rank.append(freedom_dic)
-    return jsonify(freedom_rank)
+#     freedom_rank = []
+#     for country in results:
+#         freedom_dic ={}
+#         freedom_dic['country'] = country.Country
+#         freedom_dic['freedom_score'] = country.Freedom
+#         freedom_rank.append(freedom_dic)
+#     return jsonify(freedom_rank)
 
-@app.route('/corruption')
-def corruption():
-    results = session.query(happinessData).all()
+# @app.route('/corruption')
+# def corruption():
+#     results = session.query(happinessData).all()
 
-    corruption_rank = []
-    for country in results:
-        corruption_dic ={}
-        corruption_dic['country'] = country.Country
-        corruption_dic['corruption_score'] = country.Trust
-        corruption_rank.append(corruption_dic)
-    return jsonify(corruption_rank)
+#     corruption_rank = []
+#     for country in results:
+#         corruption_dic ={}
+#         corruption_dic['country'] = country.Country
+#         corruption_dic['corruption_score'] = country.Trust
+#         corruption_rank.append(corruption_dic)
+#     return jsonify(corruption_rank)
 
 #Map route with geo data
 @app.route('/geoData')
