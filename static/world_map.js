@@ -4,7 +4,7 @@ var url = "/geoData/map";
 var mapData = [ 
     {
       country: "Norway", 
-      countrycountryCode: "NO", 
+      countryCode: "NO", 
       latitude: 62.0, 
       longitude: 10.0,
       rank: 1,
@@ -12,7 +12,7 @@ var mapData = [
     }, 
     {
       country: "Denmark", 
-      countrycountryCode: "DK", 
+      countryCode: "DK", 
       latitude: 56.0, 
       longitude: 10.0,
       rank: 2,
@@ -20,7 +20,7 @@ var mapData = [
     }, 
     {
       country: "Iceland", 
-      countrycountryCode: "IS", 
+      countryCode: "IS", 
       latitude: 65.0, 
       longitude: -18.0,
       rank: 3,
@@ -28,7 +28,7 @@ var mapData = [
     }, 
     {
       country: "Switzerland", 
-      countrycountryCode: "CH", 
+      countryCode: "CH", 
       latitude: 47.0, 
       longitude: 8.0,
       rank: 4,
@@ -36,7 +36,7 @@ var mapData = [
     }, 
     {
       country: "Finland", 
-      countrycountryCode: "FI", 
+      countryCode: "FI", 
       latitude: 64.0, 
       longitude: 26.0,
       rank: 5,
@@ -44,7 +44,7 @@ var mapData = [
     }, 
     {
       country: "Netherlands", 
-      countrycountryCode: "NL", 
+      countryCode: "NL", 
       latitude: 52.5, 
       longitude: 5.75,
       rank: 6,
@@ -52,7 +52,7 @@ var mapData = [
     }, 
     {
       country: "Canada", 
-      countrycountryCode: "CA", 
+      countryCode: "CA", 
       latitude: 60.0, 
       longitude: -95.0,
       rank: 7,
@@ -60,7 +60,7 @@ var mapData = [
     }, 
     {
       country: "New Zealand", 
-      countrycountryCode: "NZ", 
+      countryCode: "NZ", 
       latitude: -41.0, 
       longitude: 174.0,
       rank: 8,
@@ -68,7 +68,7 @@ var mapData = [
     }, 
     {
       country: "Sweden", 
-      countrycountryCode: "SE", 
+      countryCode: "SE", 
       latitude: 62.0, 
       longitude: 15.0,
       rank: 9,
@@ -76,7 +76,7 @@ var mapData = [
     }, 
     {
       country: "Australia", 
-      countrycountryCode: "AU", 
+      countryCode: "AU", 
       latitude: -27.0, 
       longitude: 133.0,
       rank: 10,
@@ -84,7 +84,7 @@ var mapData = [
     }, 
     {
       country: "Israel", 
-      countrycountryCode: "IL", 
+      countryCode: "IL", 
       latitude: 31.5, 
       longitude: 34.75,
       rank: 11,
@@ -92,7 +92,7 @@ var mapData = [
     }, 
     {
       country: "Costa Rica", 
-      countrycountryCode: "CR", 
+      countryCode: "CR", 
       latitude: 10.0, 
       longitude: -84.0,
       rank: 12,
@@ -100,7 +100,7 @@ var mapData = [
     }, 
     {
       country: "Austria", 
-      countrycountryCode: "AT", 
+      countryCode: "AT", 
       latitude: 47.33, 
       longitude: 13.33,
       rank: 13,
@@ -108,7 +108,7 @@ var mapData = [
     }, 
     {
       country: "United States", 
-      countrycountryCode: "US", 
+      countryCode: "US", 
       latitude: 38.0, 
       longitude: -97.0,
       rank: 14,
@@ -116,7 +116,7 @@ var mapData = [
     }, 
     {
       country: "Ireland", 
-      countrycountryCode: "IE", 
+      countryCode: "IE", 
       latitude: 53.0, 
       longitude: -8.0,
       rank: 15,
@@ -124,7 +124,7 @@ var mapData = [
     }, 
     {
       country: "Germany", 
-      countrycountryCode: "DE", 
+      countryCode: "DE", 
       latitude: 51.0, 
       longitude: 9.0,
       rank: 16,
@@ -132,7 +132,7 @@ var mapData = [
     }, 
     {
       country: "Belgium", 
-      countrycountryCode: "BE", 
+      countryCode: "BE", 
       latitude: 50.83, 
       longitude: 4.0,
       rank: 17,
@@ -140,7 +140,7 @@ var mapData = [
     }, 
     {
       country: "Luxembourg", 
-      countrycountryCode: "LU", 
+      countryCode: "LU", 
       latitude: 49.75, 
       longitude: 6.17,
       rank: 18,
@@ -148,7 +148,7 @@ var mapData = [
     }, 
     {
       country: "United Kingdom", 
-      countrycountryCode: "GB", 
+      countryCode: "GB", 
       latitude: 54.0, 
       longitude: -2.0,
       rank: 19,
@@ -156,7 +156,7 @@ var mapData = [
     }, 
     {
       country: "Chile", 
-      countrycountryCode: "CL", 
+      countryCode: "CL", 
       latitude: -30.0, 
       longitude: -71.0,
       rank: 20,
@@ -164,7 +164,7 @@ var mapData = [
     }, 
     {
       country: "United Arab Emirates", 
-      countrycountryCode: "AE", 
+      countryCode: "AE", 
       latitude: 24.0, 
       longitude: 54.0,
       rank: 21,
@@ -172,7 +172,7 @@ var mapData = [
     }, 
     {
       country: "Brazil", 
-      countrycountryCode: "BR", 
+      countryCode: "BR", 
       latitude: -10.0, 
       longitude: -55.0,
       rank: 22,
@@ -180,7 +180,7 @@ var mapData = [
     }, 
     {
       country: "Czech Republic", 
-      countrycountryCode: "CZ", 
+      countryCode: "CZ", 
       latitude: 49.75, 
       longitude: 15.5,
       rank: 23,
@@ -188,7 +188,7 @@ var mapData = [
     }, 
     {
       country: "Argentina", 
-      countrycountryCode: "AR", 
+      countryCode: "AR", 
       latitude: -34.0, 
       longitude: -64.0,
       rank: 24,
@@ -196,7 +196,7 @@ var mapData = [
     }, 
     {
       country: "Mexico", 
-      countrycountryCode: "MX", 
+      countryCode: "MX", 
       latitude: 23.0, 
       longitude: -102.0,
       rank: 25,
@@ -204,7 +204,7 @@ var mapData = [
     }, 
     {
       country: "Singapore", 
-      countrycountryCode: "SG", 
+      countryCode: "SG", 
       latitude: 1.37, 
       longitude: 103.8,
       rank: 26,
@@ -212,7 +212,7 @@ var mapData = [
     }, 
     {
       country: "Malta", 
-      countrycountryCode: "MT", 
+      countryCode: "MT", 
       latitude: 35.83, 
       longitude: 14.58,
       rank: 27,
@@ -220,7 +220,7 @@ var mapData = [
     }, 
     {
       country: "Uruguay", 
-      countrycountryCode: "UY", 
+      countryCode: "UY", 
       latitude: -33.0, 
       longitude: -56.0,
       rank: 28,
@@ -228,7 +228,7 @@ var mapData = [
     }, 
     {
       country: "Guatemala", 
-      countrycountryCode: "GT", 
+      countryCode: "GT", 
       latitude: 15.5, 
       longitude: -90.25,
       rank: 29,
@@ -236,7 +236,7 @@ var mapData = [
     }, 
     {
       country: "Panama", 
-      countrycountryCode: "PA", 
+      countryCode: "PA", 
       latitude: 9.0, 
       longitude: -80.0,
       rank: 30,
@@ -244,7 +244,7 @@ var mapData = [
     }, 
     {
       country: "France", 
-      countrycountryCode: "FR", 
+      countryCode: "FR", 
       latitude: 46.0, 
       longitude: 2.0,
       rank: 31,
@@ -252,7 +252,7 @@ var mapData = [
     }, 
     {
       country: "Thailand", 
-      countrycountryCode: "TH", 
+      countryCode: "TH", 
       latitude: 15.0, 
       longitude: 100.0,
       rank: 32,
@@ -260,7 +260,7 @@ var mapData = [
     }, 
     {
       country: "Taiwan Province of China", 
-      countrycountryCode: "TW", 
+      countryCode: "TW", 
       latitude: 23.70, 
       longitude: 120.96,
       rank: 33,
@@ -268,7 +268,7 @@ var mapData = [
     }, 
     {
       country: "Spain", 
-      countrycountryCode: "ES", 
+      countryCode: "ES", 
       latitude: 40.0, 
       longitude: -4.0,
       rank: 34,
@@ -276,7 +276,7 @@ var mapData = [
     }, 
     {
       country: "Qatar", 
-      countrycountryCode: "QA", 
+      countryCode: "QA", 
       latitude: 25.5, 
       longitude: 51.25,
       rank: 35,
@@ -284,7 +284,7 @@ var mapData = [
     }, 
     {
       country: "Colombia", 
-      countrycountryCode: "CO", 
+      countryCode: "CO", 
       latitude: 4.0, 
       longitude: -72.0,
       rank: 36,
@@ -292,7 +292,7 @@ var mapData = [
     }, 
     {
       country: "Saudi Arabia", 
-      countrycountryCode: "SA", 
+      countryCode: "SA", 
       latitude: 25.0, 
       longitude: 45.0,
       rank: 37,
@@ -300,7 +300,7 @@ var mapData = [
     }, 
     {
       country: "Trinidad and Tobago", 
-      countrycountryCode: "TT", 
+      countryCode: "TT", 
       latitude: 11.0, 
       longitude: -61.0,
       rank: 38,
@@ -308,7 +308,7 @@ var mapData = [
     }, 
     {
       country: "Kuwait", 
-      countrycountryCode: "KW", 
+      countryCode: "KW", 
       latitude: 29.34, 
       longitude: 47.66,
       rank: 39,
@@ -316,7 +316,7 @@ var mapData = [
     }, 
     {
       country: "Slovakia", 
-      countrycountryCode: "SK", 
+      countryCode: "SK", 
       latitude: 48.67, 
       longitude: 19.5,
       rank: 40,
@@ -324,7 +324,7 @@ var mapData = [
     }, 
     {
       country: "Bahrain", 
-      countrycountryCode: "BH", 
+      countryCode: "BH", 
       latitude: 26.0, 
       longitude: 50.55,
       rank: 41,
@@ -332,7 +332,7 @@ var mapData = [
     }, 
     {
       country: "Malaysia", 
-      countrycountryCode: "MY", 
+      countryCode: "MY", 
       latitude: 2.5, 
       longitude: 112.5,
       rank: 42,
@@ -340,7 +340,7 @@ var mapData = [
     }, 
     {
       country: "Nicaragua", 
-      countrycountryCode: "NI", 
+      countryCode: "NI", 
       latitude: 13.0, 
       longitude: -85.0,
       rank: 43,
@@ -348,7 +348,7 @@ var mapData = [
     }, 
     {
       country: "Ecuador", 
-      countrycountryCode: "EC", 
+      countryCode: "EC", 
       latitude: -2.0, 
       longitude: -77.5,
       rank: 44,
@@ -356,7 +356,7 @@ var mapData = [
     }, 
     {
       country: "El Salvador", 
-      countrycountryCode: "SV", 
+      countryCode: "SV", 
       latitude: 13.83, 
       longitude: -88.92,
       rank: 45,
@@ -364,7 +364,7 @@ var mapData = [
     }, 
     {
       country: "Poland", 
-      countrycountryCode: "PL", 
+      countryCode: "PL", 
       latitude: 52.0, 
       longitude: 20.0,
       rank: 46,
@@ -372,7 +372,7 @@ var mapData = [
     }, 
     {
       country: "Uzbekistan", 
-      countrycountryCode: "UZ", 
+      countryCode: "UZ", 
       latitude: 41.0, 
       longitude: 64.0,
       rank: 47,
@@ -380,7 +380,7 @@ var mapData = [
     }, 
     {
       country: "Italy", 
-      countrycountryCode: "IT", 
+      countryCode: "IT", 
       latitude: 42.83, 
       longitude: 12.83,
       rank: 48,
@@ -388,7 +388,7 @@ var mapData = [
     }, 
     {
       country: "Russia", 
-      countrycountryCode: "RU", 
+      countryCode: "RU", 
       latitude: 61.52, 
       longitude: 105.32,
       rank: 49,
@@ -396,7 +396,7 @@ var mapData = [
     }, 
     {
       country: "Belize", 
-      countrycountryCode: "BZ", 
+      countryCode: "BZ", 
       latitude: 17.25, 
       longitude: -88.75,
       rank: 50,
@@ -404,7 +404,7 @@ var mapData = [
     }, 
     {
       country: "Japan", 
-      countrycountryCode: "JP", 
+      countryCode: "JP", 
       latitude: 36.0, 
       longitude: 138.0,
       rank: 51,
@@ -412,7 +412,7 @@ var mapData = [
     }, 
     {
       country: "Lithuania", 
-      countrycountryCode: "LT", 
+      countryCode: "LT", 
       latitude: 56.0, 
       longitude: 24.0,
       rank: 52,
@@ -420,7 +420,7 @@ var mapData = [
     }, 
     {
       country: "Algeria", 
-      countrycountryCode: "DZ", 
+      countryCode: "DZ", 
       latitude: 28.0, 
       longitude: 3.0,
       rank: 53,
@@ -428,7 +428,7 @@ var mapData = [
     }, 
     {
       country: "Latvia", 
-      countrycountryCode: "LV", 
+      countryCode: "LV", 
       latitude: 57.0, 
       longitude: 25.0,
       rank: 54,
@@ -436,7 +436,7 @@ var mapData = [
     }, 
     {
       country: "South Korea", 
-      countrycountryCode: "RK", 
+      countryCode: "RK", 
       latitude: 35.91, 
       longitude: 127.77,
       rank: 55,
@@ -444,7 +444,7 @@ var mapData = [
     }, 
     {
       country: "Moldova", 
-      countrycountryCode: "MD", 
+      countryCode: "MD", 
       latitude: 47.41, 
       longitude: 28.37,
       rank: 56,
@@ -452,7 +452,7 @@ var mapData = [
     }, 
     {
       country: "Romania", 
-      countrycountryCode: "RO", 
+      countryCode: "RO", 
       latitude: 46.0, 
       longitude: 25.0,
       rank: 57,
@@ -460,7 +460,7 @@ var mapData = [
     }, 
     {
       country: "Bolivia", 
-      countrycountryCode: "BO", 
+      countryCode: "BO", 
       latitude: -17.0, 
       longitude: -65.0,
       rank: 58,
@@ -468,7 +468,7 @@ var mapData = [
     }, 
     {
       country: "Turkmenistan", 
-      countrycountryCode: "TM", 
+      countryCode: "TM", 
       latitude: 40.0, 
       longitude: 60.0,
       rank: 59,
@@ -476,7 +476,7 @@ var mapData = [
     }, 
     {
       country: "Kazakhstan", 
-      countrycountryCode: "KZ", 
+      countryCode: "KZ", 
       latitude: 48.0, 
       longitude: 68.0,
       rank: 60,
@@ -484,7 +484,7 @@ var mapData = [
     }, 
     {
       country: "North Cyprus", 
-      countrycountryCode: "CY", 
+      countryCode: "CY", 
       latitude: 35.13, 
       longitude: 33.43,
       rank: 61,
@@ -492,7 +492,7 @@ var mapData = [
     }, 
     {
       country: "Slovenia", 
-      countrycountryCode: "SI", 
+      countryCode: "SI", 
       latitude: 46.0, 
       longitude: 15.0,
       rank: 62,
@@ -500,7 +500,7 @@ var mapData = [
     }, 
     {
       country: "Peru", 
-      countrycountryCode: "PE", 
+      countryCode: "PE", 
       latitude: -10.0, 
       longitude: -76.0,
       rank: 63,
@@ -508,7 +508,7 @@ var mapData = [
     }, 
     {
       country: "Mauritius", 
-      countrycountryCode: "MU", 
+      countryCode: "MU", 
       latitude: -20.28, 
       longitude: 57.55,
       rank: 64,
@@ -516,7 +516,7 @@ var mapData = [
     }, 
     {
       country: "Cyprus", 
-      countrycountryCode: "CY", 
+      countryCode: "CY", 
       latitude: 35.0, 
       longitude: 33.0,
       rank: 65,
@@ -524,7 +524,7 @@ var mapData = [
     }, 
     {
       country: "Estonia", 
-      countrycountryCode: "EE", 
+      countryCode: "EE", 
       latitude: 59.0, 
       longitude: 26.0,
       rank: 66,
@@ -532,7 +532,7 @@ var mapData = [
     }, 
     {
       country: "Belarus", 
-      countrycountryCode: "BY", 
+      countryCode: "BY", 
       latitude: 53.0, 
       longitude: 28.0,
       rank: 67,
@@ -540,7 +540,7 @@ var mapData = [
     }, 
     {
       country: "Libya", 
-      countrycountryCode: "LB", 
+      countryCode: "LB", 
       latitude: 26.34, 
       longitude: 17.23,
       rank: 68,
@@ -548,7 +548,7 @@ var mapData = [
     }, 
     {
       country: "Turkey", 
-      countrycountryCode: "TR", 
+      countryCode: "TR", 
       latitude: 39.0, 
       longitude: 35.0,
       rank: 69,
@@ -556,7 +556,7 @@ var mapData = [
     }, 
     {
       country: "Paraguay", 
-      countrycountryCode: "PY", 
+      countryCode: "PY", 
       latitude: -23.0, 
       longitude: -58.0,
       rank: 70,
@@ -564,7 +564,7 @@ var mapData = [
     }, 
     {
       country: "Hong Kong S.A.R., China", 
-      countrycountryCode: "HK", 
+      countryCode: "HK", 
       latitude: 22.40, 
       longitude: 114.11,
       rank: 71,
@@ -572,7 +572,7 @@ var mapData = [
     }, 
     {
       country: "Philippines", 
-      countrycountryCode: "PH", 
+      countryCode: "PH", 
       latitude: 13.0, 
       longitude: 122.0,
       rank: 72,
@@ -580,7 +580,7 @@ var mapData = [
     }, 
     {
       country: "Serbia", 
-      countrycountryCode: "RS", 
+      countryCode: "RS", 
       latitude: 44.0, 
       longitude: 21.0,
       rank: 73,
@@ -588,7 +588,7 @@ var mapData = [
     }, 
     {
       country: "Jordan", 
-      countrycountryCode: "JO", 
+      countryCode: "JO", 
       latitude: 31.0, 
       longitude: 36.0,
       rank: 74,
@@ -596,7 +596,7 @@ var mapData = [
     }, 
     {
       country: "Hungary", 
-      countrycountryCode: "HU", 
+      countryCode: "HU", 
       latitude: 47.0, 
       longitude: 20.0,
       rank: 75,
@@ -604,7 +604,7 @@ var mapData = [
     }, 
     {
       country: "Jamaica", 
-      countrycountryCode: "JM", 
+      countryCode: "JM", 
       latitude: 18.25, 
       longitude: -77.5,
       rank: 76,
@@ -612,7 +612,7 @@ var mapData = [
     }, 
     {
       country: "Croatia", 
-      countrycountryCode: "HR", 
+      countryCode: "HR", 
       latitude: 45.17, 
       longitude: 15.5,
       rank: 77,
@@ -620,7 +620,7 @@ var mapData = [
     }, 
     {
       country: "Kosovo", 
-      countrycountryCode: "KS", 
+      countryCode: "KS", 
       latitude: 42.60, 
       longitude: 20.90,
       rank: 78,
@@ -628,7 +628,7 @@ var mapData = [
     }, 
     {
       country: "China", 
-      countrycountryCode: "CN", 
+      countryCode: "CN", 
       latitude: 35.0, 
       longitude: 105.0,
       rank: 79,
@@ -636,7 +636,7 @@ var mapData = [
     }, 
     {
       country: "Pakistan", 
-      countrycountryCode: "PK", 
+      countryCode: "PK", 
       latitude: 30.0, 
       longitude: 70.0,
       rank: 80,
@@ -644,7 +644,7 @@ var mapData = [
     }, 
     {
       country: "Indonesia", 
-      countrycountryCode: "ID", 
+      countryCode: "ID", 
       latitude: -5.0, 
       longitude: 120.0,
       rank: 81,
@@ -652,7 +652,7 @@ var mapData = [
     }, 
     {
       country: "Venezuela", 
-      countrycountryCode: "VE", 
+      countryCode: "VE", 
       latitude: 8.0, 
       longitude: -66.0,
       rank: 82,
@@ -660,7 +660,7 @@ var mapData = [
     }, 
     {
       country: "Montenegro", 
-      countrycountryCode: "ME", 
+      countryCode: "ME", 
       latitude: 42.0, 
       longitude: 19.0,
       rank: 83,
@@ -668,7 +668,7 @@ var mapData = [
     }, 
     {
       country: "Morocco", 
-      countrycountryCode: "MA", 
+      countryCode: "MA", 
       latitude: 32.0, 
       longitude: -5.0,
       rank: 84,
@@ -676,7 +676,7 @@ var mapData = [
     }, 
     {
       country: "Azerbaijan", 
-      countrycountryCode: "AZ", 
+      countryCode: "AZ", 
       latitude: 40.5, 
       longitude: 47.5,
       rank: 85,
@@ -684,7 +684,7 @@ var mapData = [
     }, 
     {
       country: "Dominican Republic", 
-      countrycountryCode: "DO", 
+      countryCode: "DO", 
       latitude: 19.0, 
       longitude: -70.67,
       rank: 86,
@@ -692,7 +692,7 @@ var mapData = [
     }, 
     {
       country: "Greece", 
-      countrycountryCode: "GR", 
+      countryCode: "GR", 
       latitude: 39.0, 
       longitude: 22.0,
       rank: 87,
@@ -700,7 +700,7 @@ var mapData = [
     }, 
     {
       country: "Lebanon", 
-      countrycountryCode: "LB", 
+      countryCode: "LB", 
       latitude: 33.83, 
       longitude: 35.83,
       rank: 88,
@@ -708,7 +708,7 @@ var mapData = [
     }, 
     {
       country: "Portugal", 
-      countrycountryCode: "PT", 
+      countryCode: "PT", 
       latitude: 39.5, 
       longitude: -8.0,
       rank: 89,
@@ -716,7 +716,7 @@ var mapData = [
     }, 
     {
       country: "Bosnia and Herzegovina", 
-      countrycountryCode: "BA", 
+      countryCode: "BA", 
       latitude: 44.0, 
       longitude: 18.0,
       rank: 90,
@@ -724,7 +724,7 @@ var mapData = [
     }, 
     {
       country: "Honduras", 
-      countrycountryCode: "HN", 
+      countryCode: "HN", 
       latitude: 15.0, 
       longitude: -86.5,
       rank: 91,
@@ -732,7 +732,7 @@ var mapData = [
     }, 
     {
       country: "Macedonia", 
-      countrycountryCode: "MK", 
+      countryCode: "MK", 
       latitude: 41.83, 
       longitude: 22.0,
       rank: 92,
@@ -740,7 +740,7 @@ var mapData = [
     }, 
     {
       country: "Somalia", 
-      countrycountryCode: "SO", 
+      countryCode: "SO", 
       latitude: 10.0, 
       longitude: 49.0,
       rank: 93,
@@ -748,7 +748,7 @@ var mapData = [
     }, 
     {
       country: "Vietnam", 
-      countrycountryCode: "VN", 
+      countryCode: "VN", 
       latitude: 16.0, 
       longitude: 106.0,
       rank: 94,
@@ -756,7 +756,7 @@ var mapData = [
     }, 
     {
       country: "Nigeria", 
-      countrycountryCode: "NG", 
+      countryCode: "NG", 
       latitude: 10.0, 
       longitude: 8.0,
       rank: 95,
@@ -764,7 +764,7 @@ var mapData = [
     }, 
     {
       country: "Tajikistan", 
-      countrycountryCode: "TJ", 
+      countryCode: "TJ", 
       latitude: 39.0, 
       longitude: 71.0,
       rank: 96,
@@ -772,7 +772,7 @@ var mapData = [
     }, 
     {
       country: "Bhutan", 
-      countrycountryCode: "BT", 
+      countryCode: "BT", 
       latitude: 27.5, 
       longitude: 90.5,
       rank: 97,
@@ -780,7 +780,7 @@ var mapData = [
     }, 
     {
       country: "Kyrgyzstan", 
-      countrycountryCode: "KG", 
+      countryCode: "KG", 
       latitude: 41.0, 
       longitude: 75.0,
       rank: 98,
@@ -788,7 +788,7 @@ var mapData = [
     }, 
     {
       country: "Nepal", 
-      countrycountryCode: "NP", 
+      countryCode: "NP", 
       latitude: 28.0, 
       longitude: 84.0,
       rank: 99,
@@ -796,7 +796,7 @@ var mapData = [
     }, 
     {
       country: "Mongolia", 
-      countrycountryCode: "MN", 
+      countryCode: "MN", 
       latitude: 46.0, 
       longitude: 105.0,
       rank: 100,
@@ -804,7 +804,7 @@ var mapData = [
     }, 
     {
       country: "South Africa", 
-      countrycountryCode: "ZA", 
+      countryCode: "ZA", 
       latitude: -29.0, 
       longitude: 24.0,
       rank: 101,
@@ -812,7 +812,7 @@ var mapData = [
     }, 
     {
       country: "Tunisia", 
-      countrycountryCode: "TN", 
+      countryCode: "TN", 
       latitude: 34.0, 
       longitude: 9.0,
       rank: 102,
@@ -820,7 +820,7 @@ var mapData = [
     }, 
     {
       country: "Palestinian Territories", 
-      countrycountryCode: "OPT", 
+      countryCode: "OPT", 
       latitude: 37.08, 
       longitude: -94.51,
       rank: 103,
@@ -828,7 +828,7 @@ var mapData = [
     }, 
     {
       country: "Egypt", 
-      countrycountryCode: "EG", 
+      countryCode: "EG", 
       latitude: 27.0, 
       longitude: 30.0,
       rank: 104,
@@ -836,7 +836,7 @@ var mapData = [
     }, 
     {
       country: "Bulgaria", 
-      countrycountryCode: "BG", 
+      countryCode: "BG", 
       latitude: 43.0, 
       longitude: 25.0,
       rank: 105,
@@ -844,7 +844,7 @@ var mapData = [
     }, 
     {
       country: "Sierra Leone", 
-      countrycountryCode: "SL", 
+      countryCode: "SL", 
       latitude: 8.5, 
       longitude: -11.5,
       rank: 106,
@@ -852,7 +852,7 @@ var mapData = [
     }, 
     {
       country: "Cameroon", 
-      countrycountryCode: "CM", 
+      countryCode: "CM", 
       latitude: 6.0, 
       longitude: 12.0,
       rank: 107,
@@ -860,7 +860,7 @@ var mapData = [
     }, 
     {
       country: "Iran", 
-      countrycountryCode: "IR", 
+      countryCode: "IR", 
       latitude: 32.48, 
       longitude: 53.69,
       rank: 108,
@@ -868,7 +868,7 @@ var mapData = [
     }, 
     {
       country: "Albania", 
-      countrycountryCode: "AL", 
+      countryCode: "AL", 
       latitude: 41.0, 
       longitude: 20.0,
       rank: 109,
@@ -876,7 +876,7 @@ var mapData = [
     }, 
     {
       country: "Bangladesh", 
-      countrycountryCode: "BD", 
+      countryCode: "BD", 
       latitude: 24.0, 
       longitude: 90.0,
       rank: 110,
@@ -884,7 +884,7 @@ var mapData = [
     }, 
     {
       country: "Namibia", 
-      countrycountryCode: "NM", 
+      countryCode: "NM", 
       latitude: -22.0, 
       longitude: 17.0,
       rank: 111,
@@ -892,7 +892,7 @@ var mapData = [
     }, 
     {
       country: "Kenya", 
-      countrycountryCode: "KE", 
+      countryCode: "KE", 
       latitude: 1.0, 
       longitude: 38.0,
       rank: 112,
@@ -900,7 +900,7 @@ var mapData = [
     }, 
     {
       country: "Mozambique", 
-      countrycountryCode: "MZ", 
+      countryCode: "MZ", 
       latitude: -18.25, 
       longitude: 35.0,
       rank: 113,
@@ -908,7 +908,7 @@ var mapData = [
     }, 
     {
       country: "Myanmar", 
-      countrycountryCode: "MM", 
+      countryCode: "MM", 
       latitude: 22.0, 
       longitude: 98.0,
       rank: 114,
@@ -916,7 +916,7 @@ var mapData = [
     }, 
     {
       country: "Senegal", 
-      countrycountryCode: "SN", 
+      countryCode: "SN", 
       latitude: 14.0, 
       longitude: -14.0,
       rank: 115,
@@ -924,7 +924,7 @@ var mapData = [
     }, 
     {
       country: "Zambia", 
-      countrycountryCode: "ZM", 
+      countryCode: "ZM", 
       latitude: -15.0, 
       longitude: 30.0,
       rank: 116,
@@ -932,7 +932,7 @@ var mapData = [
     }, 
     {
       country: "Iraq", 
-      countrycountryCode: "IQ", 
+      countryCode: "IQ", 
       latitude: 33.0, 
       longitude: 44.0,
       rank: 117,
@@ -940,7 +940,7 @@ var mapData = [
     }, 
     {
       country: "Gabon", 
-      countrycountryCode: "GA", 
+      countryCode: "GA", 
       latitude: -1.0, 
       longitude: 11.75,
       rank: 118,
@@ -948,7 +948,7 @@ var mapData = [
     }, 
     {
       country: "Ethiopia", 
-      countrycountryCode: "ET", 
+      countryCode: "ET", 
       latitude: 8.0, 
       longitude: 38.0,
       rank: 119,
@@ -956,7 +956,7 @@ var mapData = [
     }, 
     {
       country: "Sri Lanka", 
-      countrycountryCode: "LK", 
+      countryCode: "LK", 
       latitude: 7.0, 
       longitude: 81.0,
       rank: 120,
@@ -964,7 +964,7 @@ var mapData = [
     }, 
     {
       country: "Armenia", 
-      countrycountryCode: "AM", 
+      countryCode: "AM", 
       latitude: 40.0, 
       longitude: 45.0,
       rank: 121,
@@ -972,7 +972,7 @@ var mapData = [
     }, 
     {
       country: "India", 
-      countrycountryCode: "IN", 
+      countryCode: "IN", 
       latitude: 20.0, 
       longitude: 77.0,
       rank: 122,
@@ -980,7 +980,7 @@ var mapData = [
     }, 
     {
       country: "Mauritania", 
-      countrycountryCode: "MR", 
+      countryCode: "MR", 
       latitude: 20.0, 
       longitude: -12.0,
       rank: 123,
@@ -988,7 +988,7 @@ var mapData = [
     }, 
     {
       country: "Congo (Brazzaville)", 
-      countrycountryCode: "RC", 
+      countryCode: "RC", 
       latitude: -4.26, 
       longitude: 15.24,
       rank: 124,
@@ -996,7 +996,7 @@ var mapData = [
     }, 
     {
       country: "Georgia", 
-      countrycountryCode: "GE", 
+      countryCode: "GE", 
       latitude: 42.0, 
       longitude: 43.5,
       rank: 125,
@@ -1004,7 +1004,7 @@ var mapData = [
     }, 
     {
       country: "Congo (Kinshasa)", 
-      countrycountryCode: "DC", 
+      countryCode: "DC", 
       latitude: -4.04, 
       longitude: 21.76,
       rank: 126,
@@ -1012,7 +1012,7 @@ var mapData = [
     }, 
     {
       country: "Mali", 
-      countrycountryCode: "ML", 
+      countryCode: "ML", 
       latitude: 17.0, 
       longitude: -4.0,
       rank: 127,
@@ -1020,7 +1020,7 @@ var mapData = [
     }, 
     {
       country: "Ivory Coast", 
-      countrycountryCode: "IC", 
+      countryCode: "IC", 
       latitude: 7.54, 
       longitude: -5.55,
       rank: 128,
@@ -1028,7 +1028,7 @@ var mapData = [
     }, 
     {
       country: "Cambodia", 
-      countrycountryCode: "KH", 
+      countryCode: "KH", 
       latitude: 13.0, 
       longitude: 105.0,
       rank: 129,
@@ -1036,7 +1036,7 @@ var mapData = [
     }, 
     {
       country: "Sudan", 
-      countrycountryCode: "SD", 
+      countryCode: "SD", 
       latitude: 15.0, 
       longitude: 30.0,
       rank: 130,
@@ -1044,7 +1044,7 @@ var mapData = [
     }, 
     {
       country: "Ghana", 
-      countrycountryCode: "GH", 
+      countryCode: "GH", 
       latitude: 8.0, 
       longitude: -2.0,
       rank: 131,
@@ -1052,7 +1052,7 @@ var mapData = [
     }, 
     {
       country: "Ukraine", 
-      countrycountryCode: "UA", 
+      countryCode: "UA", 
       latitude: 49.0, 
       longitude: 32.0,
       rank: 132,
@@ -1060,7 +1060,7 @@ var mapData = [
     }, 
     {
       country: "Uganda", 
-      countrycountryCode: "UG", 
+      countryCode: "UG", 
       latitude: 1.0, 
       longitude: 32.0,
       rank: 133,
@@ -1068,7 +1068,7 @@ var mapData = [
     }, 
     {
       country: "Burkina Faso", 
-      countrycountryCode: "BF", 
+      countryCode: "BF", 
       latitude: 13.0, 
       longitude: -2.0,
       rank: 134,
@@ -1076,7 +1076,7 @@ var mapData = [
     }, 
     {
       country: "Niger", 
-      countrycountryCode: "NE", 
+      countryCode: "NE", 
       latitude: 16.0, 
       longitude: 8.0,
       rank: 135,
@@ -1084,7 +1084,7 @@ var mapData = [
     }, 
     {
       country: "Malawi", 
-      countrycountryCode: "MW", 
+      countryCode: "MW", 
       latitude: -13.5, 
       longitude: 34.0,
       rank: 136,
@@ -1092,7 +1092,7 @@ var mapData = [
     }, 
     {
       country: "Chad", 
-      countrycountryCode: "TD", 
+      countryCode: "TD", 
       latitude: 15.0, 
       longitude: 19.0,
       rank: 137,
@@ -1100,7 +1100,7 @@ var mapData = [
     }, 
     {
       country: "Zimbabwe", 
-      countrycountryCode: "ZW", 
+      countryCode: "ZW", 
       latitude: -20.0, 
       longitude: 30.0,
       rank: 138,
@@ -1108,7 +1108,7 @@ var mapData = [
     }, 
     {
       country: "Lesotho", 
-      countrycountryCode: "LS", 
+      countryCode: "LS", 
       latitude: -29.5, 
       longitude: 28.5,
       rank: 139,
@@ -1116,7 +1116,7 @@ var mapData = [
     }, 
     {
       country: "Angola", 
-      countrycountryCode: "AO", 
+      countryCode: "AO", 
       latitude: -12.5, 
       longitude: 18.5,
       rank: 140,
@@ -1124,7 +1124,7 @@ var mapData = [
     }, 
     {
       country: "Afghanistan", 
-      countrycountryCode: "AF", 
+      countryCode: "AF", 
       latitude: 33.0, 
       longitude: 65.0,
       rank: 141,
@@ -1132,7 +1132,7 @@ var mapData = [
     }, 
     {
       country: "Botswana", 
-      countrycountryCode: "BW", 
+      countryCode: "BW", 
       latitude: -22.0, 
       longitude: 24.0,
       rank: 142,
@@ -1140,7 +1140,7 @@ var mapData = [
     }, 
     {
       country: "Benin", 
-      countrycountryCode: "BJ", 
+      countryCode: "BJ", 
       latitude: 9.5, 
       longitude: 2.25,
       rank: 143,
@@ -1148,7 +1148,7 @@ var mapData = [
     }, 
     {
       country: "Madagascar", 
-      countrycountryCode: "MG", 
+      countryCode: "MG", 
       latitude: -20.0, 
       longitude: 47.0,
       rank: 144,
@@ -1156,7 +1156,7 @@ var mapData = [
     }, 
     {
       country: "Haiti", 
-      countrycountryCode: "HT", 
+      countryCode: "HT", 
       latitude: 19.0, 
       longitude: -72.42,
       rank: 145,
@@ -1164,7 +1164,7 @@ var mapData = [
     }, 
     {
       country: "Yemen", 
-      countrycountryCode: "YE", 
+      countryCode: "YE", 
       latitude: 15.0, 
       longitude: 48.0,
       rank: 146,
@@ -1172,7 +1172,7 @@ var mapData = [
     }, 
     {
       country: "South Sudan", 
-      countrycountryCode: "SS", 
+      countryCode: "SS", 
       latitude: 6.88, 
       longitude: 31.31,
       rank: 147,
@@ -1180,7 +1180,7 @@ var mapData = [
     }, 
     {
       country: "Liberia", 
-      countrycountryCode: "LR", 
+      countryCode: "LR", 
       latitude: 6.5, 
       longitude: -9.5,
       rank: 148,
@@ -1188,7 +1188,7 @@ var mapData = [
     }, 
     {
       country: "Guinea", 
-      countrycountryCode: "GN", 
+      countryCode: "GN", 
       latitude: 11.0, 
       longitude: -10.0,
       rank: 149,
@@ -1196,7 +1196,7 @@ var mapData = [
     }, 
     {
       country: "Togo", 
-      countrycountryCode: "TG", 
+      countryCode: "TG", 
       latitude: 8.0, 
       longitude: 1.17,
       rank: 150,
@@ -1204,7 +1204,7 @@ var mapData = [
     }, 
     {
       country: "Rwanda", 
-      countrycountryCode: "RW", 
+      countryCode: "RW", 
       latitude: -2.0, 
       longitude: 30.0,
       rank: 151,
@@ -1212,7 +1212,7 @@ var mapData = [
     }, 
     {
       country: "Syria", 
-      countrycountryCode: "SY", 
+      countryCode: "SY", 
       latitude: 34.80, 
       longitude: 38.99,
       rank: 152,
@@ -1220,7 +1220,7 @@ var mapData = [
     }, 
     {
       country: "Tanzania", 
-      countrycountryCode: "TA", 
+      countryCode: "TA", 
       latitude: -6.37, 
       longitude: 34.88,
       rank: 153,
@@ -1228,7 +1228,7 @@ var mapData = [
     }, 
     {
       country: "Burundi", 
-      countrycountryCode: "BI", 
+      countryCode: "BI", 
       latitude: -3.5, 
       longitude: 30.0,
       rank: 154,
@@ -1236,7 +1236,7 @@ var mapData = [
     }, 
     {
       country: "Central African Republic", 
-      countrycountryCode: "CF", 
+      countryCode: "CF", 
       latitude: 7.0, 
       longitude: 21.0,
       rank: 155,

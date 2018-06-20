@@ -16,27 +16,27 @@ session = Session(engine)
 app = Flask(__name__)
 
 #home route for HTML template
-# @app.route('/')
-# def home():
-#     return render_template('index.html')
+@app.route('/')
+def home():
+    return render_template('index.html')
 
 #provisional welcome page
-@app.route('/')
-def welcome():
-    return(
-        f'available Routes:<br/>'
-        f'/country<br/>'
-        f'/country/scores<br/>'
-        f'/countryRank<br/>'
-        f'/geoData<br/>'
-        f'/economy<br/>'
-        f'/family<br/>'
-        f'/freedom<br/>'
-        f'/economy<br/>'
-        f'/health<br/>'
-        f'/corruption'
+# @app.route('/')
+# def welcome():
+#     return(
+#         f'available Routes:<br/>'
+#         f'/country<br/>'
+#         f'/country/scores<br/>'
+#         f'/countryRank<br/>'
+#         f'/geoData<br/>'
+#         f'/economy<br/>'
+#         f'/family<br/>'
+#         f'/freedom<br/>'
+#         f'/economy<br/>'
+#         f'/health<br/>'
+#         f'/corruption'
 
-    )
+#     )
 
 #route for country list
 @app.route('/country')
