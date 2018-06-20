@@ -1,0 +1,29 @@
+{% extends 'layout.html'%}
+
+{% block body %}
+
+<div class="container-fluid">
+    <div class ='row'>
+        <div class = 'col-md-3'></div>
+        <div class = 'col-md-4'>
+            <h2>World Happiness Factors</h2>
+            <select id="selDataset" onchange="optionChanged(this.value)">
+                <option value="GDPvsFreedom">GDP and Freedom</option>
+                <option value="FamilyvsHealth">Family and Health</option>
+                <option value="TurstvsGenerostiy">Trust and Generosity</option>
+            </select>
+            <div id="3d-plot"></div>
+            <script src="../static/3dplot.js"></script>
+        </div>
+    
+    </div>
+
+</div>
+<!-- <script src="../static/globe.js" type="text/Javascript"></script>
+    <script src="../static/search.js" type="text/Javascript"></script> -->
+    
+    
+    
+
+
+{% endblock %}

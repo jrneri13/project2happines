@@ -23,17 +23,17 @@ def home():
 #Map route
 @app.route('/happinessMap')
 def happinessMap():
-    return render_template('../static/map.html')
+    return render_template('map.html')
 
 #3d visualizations route
 @app.route('/3dvisualizations')
 def visualizations():
-    return render_template('../static/3dindex.html')
+    return render_template('3dindex.html')
 
 #rankings route
 @app.route('/rankings')
 def rankings():
-    return render_template('../static/rankings')
+    return render_template('rankings.html')
 
 
 
