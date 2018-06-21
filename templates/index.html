@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Happiness Report</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body, html {
+            height: 90%;
+            margin: 0;
+        }
+        
+        .hero-image {
+            background-image: url("https://images.pexels.com/photos/1000445/pexels-photo-1000445.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+            height: 50%;
+            background-position:  center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        
+        .hero-text {
+            text-align: top;
+            position: absolute;
+            top: 13%;
+            right: -20%;
+            transform: translate(-50%, -50%);
+            color: rgb(59, 18, 18);
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+            font-stretch: expanded;
+        }
+        
+        
+    </style>
+    
+</head>
+<body>
+    
+    
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1 style="font-size:30px">😀 Team Happiness - Derell, Jorge, Santhosh & Tushaar 😀</h1>
+        </div>
+    </div>
+    <style>
+        body {
+            background-color: rgb(29, 9, 9);
+        }
+        </style>
+    
+    <!--<h1><center>😀 Happiness is the best medicine 😀</center></h1> -->
+    <select id="selDataset" onchange="getDataCharts(this.value)">
+        <option value="dataset0">Please select a bar chart</option>
+        <option value="dataset1">Top 10 Happiest Nations</option>
+        <option value="dataset2">Top 10 Saddest Nations</option>
+        
+        <option value="dataset3">Top 10 Nations for Health and Life Expectancy</option>
+        <option value="dataset4">Top 10 Nations for Family Life </option>
+        <option value="dataset5">Top 10 Nations for Freedom </option>
+        <option value="dataset6">Top 10 Nations for Economy, GDP and Per Capita Income </option>
+        <option value="dataset7">Top 10 Nations for Trust (Anti-Corruption) </option>
+        
+        <option value="dataset8">Bottom 10 Nations for Health and Life Expectancy</option>
+        <option value="dataset9">Bottom 10 Nations for Family Life </option>
+        <option value="dataset10">Bottom 10 Nations for Freedom</option>
+        <option value="dataset11">Bottom 10 Nations for Economy, GDP and Per Capita Income </option>
+        <option value="dataset12">Bottom 10 Nations for Trust (Anti-Corruption) </option>
+        
+    </select>
+    
+    <div id="plot"></div>
+    
+    <script src="../static/plots.js"></script>
+</body>
+</html>
