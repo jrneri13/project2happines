@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World Happiness Tour</title>
-        
+    
     <!-- Javascripts to be imported -->
-                
+    
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/numeric/1.2.6/numeric.min.js"></script>
     <script src="https://d3js.org/d3.v3.min.js"></script>
@@ -18,7 +18,7 @@
     <script src="https://www.amcharts.com/lib/3/maps/js/worldLow.js"></script>
     <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
     <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
-        
+    
     <!-- <link rel="stylesheet" media="screen" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="../static/assets.css" type="text/css">
@@ -40,10 +40,12 @@
         }
         
         .hero-text {
-            text-align: top;
-            position: absolute;
-            top: 13%;
-            right: -20%;
+            text-align: center;
+            position: relative;
+            left: 50%;
+            top: 10%;
+            width: 100%;
+        
             transform: translate(-50%, -50%);
             color: rgb(59, 18, 18);
             font-family: 'Courier New', Courier, monospace;
@@ -54,12 +56,13 @@
         
         
     </style>
-
-
+    
+    
 </head>
 <body>
     {% include '_navbar.html' %}
     <div class="hero-image">
+        
         <div class="hero-text">😀 Team Happiness - Derell, Jorge, Santhosh & Tushaar 😀</div>
     </div>
     {%block body%}{% endblock %}

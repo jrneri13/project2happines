@@ -2,28 +2,28 @@
 
 {% block body %}
 <div class="container-fluid">
-        <!-- <div class="row">
-            <center><h1>World Happiness Tour</h1></center>
-            <div class="col-md-12 jumbotron text-center">
-                <button type="button" class="btn btn-default">Visualizaions</button>
-            </div>
-        </div>
-    </div> -->
-    <div class="row">
-        <div class="col-md-8">
-            <div class="panel panel-default">
-                <div class="panel-heading">Introduction</div>
-                <div class="panel-body">
-                    <p>The World Happiness Report is a landmark survey of the state of global happiness. The first report was published in 2012, the second in 2013, the third in 2015, and the fourth in the 2016 Update. The World Happiness 2017, which ranks 155 countries by their happiness levels, was released at the United Nations at an event celebrating International Day of Happiness on March 20th. The report continues to gain global recognition as governments, organizations and civil society increasingly use happiness indicators to inform their policy-making decisions. Leading experts across fields – economics, psychology, survey analysis, national statistics, health, public policy and more – describe how measurements of well-being can be used effectively to assess the progress of nations. The reports review the state of happiness in the world today and show how the new science of happiness explains personal and national variations in happiness.<br/>
-                        Inspiration: What countries rank the highest in overall happiness in each of the six categories?<br/>
-                                     How does each category impact overall happiness?</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <img src="../static/Rotating_globe.gif" alt="World Map">
+    <!-- <div class="row">
+        <center><h1>World Happiness Tour</h1></center>
+        <div class="col-md-12 jumbotron text-center">
+            <button type="button" class="btn btn-default">Visualizaions</button>
         </div>
     </div>
+</div> -->
+<div class="row">
+    <!-- <div class="col-md-8"> -->
+        <div class="panel panel-danger">
+            <div class="panel-heading"style="background-color: rgb(59, 18, 18); color: white; border-color: rgb(59, 18, 18); font-size: 30px; ">So, what are we trying to say here?</div>
+            <div class="panel-body" style ="border-color: rgb(59, 18, 18)">
+                <p style="font-size:20px; color: rgb(59, 18, 18)"> <b>Well, it is really simple... </b></p>
+                <p style="font-size:20px; color: rgb(59, 18, 18)"> First, it is imperative for all of us to be happy if we are to lead a healthy life! </p>
+                <p style="font-size:20px; color: rgb(59, 18, 18)"> Second, We must never take our lives too seriously, because we will never get out of it alive!</p>
+            </div>
+        </div>
+        <!-- </div> -->
+        <!--  <div class="col-md-4">
+            <img src="../static/Rotating_globe.gif" alt="World Map">
+        </div>
+    </div> -->
     
     <!-- <div class ='row'>
         
@@ -38,8 +38,43 @@
             <div id="3d-plot"></div>
             <script src="../static/3dplot.js"></script>
         </div> -->
-    </div>
+    </div> 
+    
+    
+    <div class="row">
+        <div class="panel panel-danger">
+            <div class="panel-heading"style="background-color: rgb(59, 18, 18); color: white; border-color: rgb(59, 18, 18); font-size: 30px; ">How did we gather our data?</div>
+            <div class="panel-body" style ="border-color: rgb(59, 18, 18)">
+                <p style="font-size:20px; color: rgb(59, 18, 18)">Now that you all know what inspired our project, we want to show you how we have implemented it: </p>
+                <p style="font-size:20px; color: rgb(59, 18, 18)"> <b>Data Source:</b> A CSV File, The World Happiness 2017, which ranks 155 countries by their happiness levels. It was released at the United Nations at an event celebrating International Day of Happiness on March 20th, 2018 </p>
+                <p style="font-size:20px; color: rgb(59, 18, 18)"> <b>Data Engineering & Web Visualization: </b>SQLite Database with Python SQL Alchemy to store and retrieve data, Pandas - Dataframes & NumPy for data cleanup and calcs, Flask Routes for JSON, JavaScript to read JSON and display charts, D3.JS, Matplot.JS and Plotly visualizations, along with HTML, CSS and Bootstrap for our content!  </p>
+            </div>
+        </div>
+    </div> 
+    
+    
+    <div class="row">
+        <div class="panel panel-danger">
+            <div class="panel-heading"style="background-color: rgb(59, 18, 18); color: white; border-color: rgb(59, 18, 18); font-size: 30px; ">Here we go...</div>
+            <div class="panel-body" style ="border-color: rgb(59, 18, 18)">
+                <p style="font-size:27px; color: rgb(59, 18, 18)"> So, now that we are getting you excited, we will <b><a href="/rankings">show you all the happy places in the world!</a></b></p>
+            </div>
+        </div>
+    </div> 
+    
+    
 </div>
+
+
+
+
+
+
+
 <!-- <script src="../static/globe.js" type="text/Javascript"></script>
     <script src="../static/search.js" type="text/Javascript"></script> -->    
-{% endblock %}
+    {% endblock %}
+    
+    
+    
+    

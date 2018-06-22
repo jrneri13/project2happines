@@ -169,6 +169,9 @@ function init(){
       x: happiness_list,
       y: [10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
       type: "bar",
+      marker: {
+        color: 'rgb(59, 18, 18)'
+      }
     }];
     var layout = {
       title: "Happiness Report 😀",
