@@ -1,0 +1,31 @@
+{% extends 'layout.html'%}
+
+{% block body %}
+    
+    
+    
+    <!--<h1><center>😀 Happiness is the best medicine 😀</center></h1> -->
+    <select id="selDataset" onchange="getDataCharts(this.value)">
+        <option value="dataset0">Please select a bar chart</option>
+        <option value="dataset1">Top 10 Happiest Nations</option>
+        <option value="dataset2">Top 10 Saddest Nations</option>
+        
+        <option value="dataset3">Top 10 Nations for Health and Life Expectancy</option>
+        <option value="dataset4">Top 10 Nations for Family Life </option>
+        <option value="dataset5">Top 10 Nations for Freedom </option>
+        <option value="dataset6">Top 10 Nations for Economy, GDP and Per Capita Income </option>
+        <option value="dataset7">Top 10 Nations for Trust (Anti-Corruption) </option>
+        
+        <option value="dataset8">Bottom 10 Nations for Health and Life Expectancy</option>
+        <option value="dataset9">Bottom 10 Nations for Family Life </option>
+        <option value="dataset10">Bottom 10 Nations for Freedom</option>
+        <option value="dataset11">Bottom 10 Nations for Economy, GDP and Per Capita Income </option>
+        <option value="dataset12">Bottom 10 Nations for Trust (Anti-Corruption) </option>
+        
+    </select>
+    
+    <div id="plot"></div>
+    
+    <script src="../static/plots.js"></script>
+
+{% endblock %}

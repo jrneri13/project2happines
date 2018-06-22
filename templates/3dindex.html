@@ -1,0 +1,40 @@
+{% extends 'layout.html'%}
+
+{% block body %}
+<div class="container-fluid">
+    <div class ='row'>
+        <!-- <div class = 'col-md-3'></div> -->
+        <div class = 'col-md-6'>
+            <h4>Happiness Factors</h4>
+            <select id="selDataset" onchange="optionChanged(this.value)">
+                <option value="Blank"></option>
+                <option value="GDPvsFreedom">Money and Freedom</option>
+                <option value="FamilyvsHealth">Family and Health</option>
+                <option value="TurstvsGenerostiy">Trust and Generosity</option>
+                <!-- <option value="MoneyvsFamily">Money and Family</option> -->
+                <option value="MoneyvsHealth">Money and Health</option>
+            </select>
+            <div id="3d-plot"></div>
+            <!-- <div id="pie-plot"></div> -->
+            <script src="../static/3dplot.js"></script>
+        </div>
+        <div class = 'col-md-6'>
+            <center><h2> Happiness Score - Top 10 Countries </h2></center>
+            <div id="pie-plot"></div>
+            <script src="../static/3dplot.js"></script>
+        </div>
+    </div>
+    <!-- <div class ='row'>
+        <div class = 'col-md-3'></div>
+        <div class = 'col-md-6'> -->
+            <!-- <div id="3d-plot"></div> -->
+            <!-- <div id="pie-plot"></div>
+                <script src="../static/3dplot.js"></script> -->
+                <!-- </div>
+                    <div class = 'col-md-3'></div>
+                </div> -->
+                <!-- <div class = 'col-md-3'></div> -->
+            </div>
+            <!-- <script src="../static/globe.js" type="text/Javascript"></script>
+                <script src="../static/search.js" type="text/Javascript"></script> -->
+{% endblock %}

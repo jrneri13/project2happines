@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Happiness Tour</title>
+        
+    <!-- Javascripts to be imported -->
+                
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/numeric/1.2.6/numeric.min.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
+    <script src="https:/unpkg.com/d3-3d/build/d3-3d.js"></script>
+    <script src="https://www.amcharts.com/lib/3/ammap.js"></script>
+    <script src="https://www.amcharts.com/lib/3/maps/js/worldLow.js"></script>
+    <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+    <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+        
+    <!-- <link rel="stylesheet" media="screen" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/assets.css" type="text/css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+        
+        .hero-image {
+            background-image: url("https://images.pexels.com/photos/1000445/pexels-photo-1000445.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+            height: 39%;
+            background-position:  center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        
+        .hero-text {
+            text-align: top;
+            position: absolute;
+            top: 13%;
+            right: -20%;
+            transform: translate(-50%, -50%);
+            color: rgb(59, 18, 18);
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+            font-stretch: expanded;
+            font-size: 30px
+        }
+        
+        
+    </style>
+
+
+</head>
+<body>
+    {% include '_navbar.html' %}
+    <div class="hero-image">
+        <div class="hero-text">😀 Team Happiness - Derell, Jorge, Santhosh & Tushaar 😀</div>
+    </div>
+    {%block body%}{% endblock %}
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <div class = "container-fluid">
+        <footer>
+            <p> @ Project 2 - World Hapiness Visualizaions</p>
+        </footer>
+    </div>      
+</body>
+</html>
