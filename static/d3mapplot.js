@@ -16,7 +16,7 @@ console.log(mapData)
 
 
 var minBulletSize = 3;
-var maxBulletSize = 70;
+var maxBulletSize = 5;
 var min = Infinity;
 var max = -Infinity;
 for (var i = 0; i < mapData.length; i++) {
@@ -35,7 +35,7 @@ var minSquare = minBulletSize * minBulletSize * 2 * Math.PI;
 
 // create circle for each country
 var images = [];
-for (var i = 0; i < 20; i++) {
+for (var i = 0; i < 15; i++) {
   var dataItem = mapData[i];
   var value = dataItem.rank;
   // calculate size of a bubble
@@ -43,7 +43,7 @@ for (var i = 0; i < 20; i++) {
   if (square < minSquare) {
     square = minSquare;
   }
-  var size = Math.sqrt(square / (Math.PI * 2));
+  var size = Math.sqrt(square / (Math.PI * 2))*5;
   var id = dataItem.countryCode;
 
   images.push( {
@@ -65,12 +65,9 @@ var map = AmCharts.makeChart( "chartdiv", {
   "type": "map",
   "projection": "eckert6",
   "titles": [ {
-    "text": "World Happiness in 2017",
-    "size": 14
-  }, {
-    "text": "source: Kaggle",
-    "size": 8
-  } ],
+    "text": "World Happiness - Top 15 Countries",
+    "size": 18
+  }, ],
   "areasSettings": {
     //"unlistedAreasColor": "#000000",
     //"unlistedAreasAlpha": 0.1
