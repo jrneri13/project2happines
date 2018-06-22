@@ -1,10 +1,12 @@
+var url = "/addMapData";
+
 getData();
 
 function getData(){
 
-  Plotly.d3.json('/geoData', function (error, regionmaphappinessData) {
+  Plotly.d3.json('/addMapData', function (error, regionmaphappinessData) {
     if (error) return console.warn(error);
-    //console.log(regionmaphappinessData)
+    console.log(regionmaphappinessData)
     buildmapcharts(regionmaphappinessData)
     
 });

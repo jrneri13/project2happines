@@ -2,7 +2,7 @@ getData();
 
 function getData(){
 
-  Plotly.d3.json('/geoData', function (error, maphappinessData) {
+  Plotly.d3.json('/addMapData2', function (error, maphappinessData) {
     if (error) return console.warn(error);
     //console.log(maphappinessData)
     buildmapcharts(maphappinessData)
@@ -11,9 +11,9 @@ function getData(){
 
 }
 
-function buildmapcharts(mapdata){
-  //console.log(mapdata)
-};
+function buildmapcharts(mapData){
+console.log(mapData)
+
 
 var minBulletSize = 3;
 var maxBulletSize = 70;
@@ -35,7 +35,7 @@ var minSquare = minBulletSize * minBulletSize * 2 * Math.PI;
 
 // create circle for each country
 var images = [];
-for (var i = 0; i < mapData.length; i++) {
+for (var i = 0; i < 20; i++) {
   var dataItem = mapData[i];
   var value = dataItem.rank;
   // calculate size of a bubble
@@ -53,10 +53,10 @@ for (var i = 0; i < mapData.length; i++) {
     "width": size,
     "height": size,
     "color": dataItem.color,
-    "longitude": mapData[id].longitude,
-    "latitude": mapData[id].latitude,
+    "longitude": mapData[i].longitude,
+    "latitude": mapData[i].latitude,
     "title": dataItem.country,
-    "rank": rank
+    "rank": mapData[i].rank
   } );
 }
 
@@ -69,7 +69,7 @@ var map = AmCharts.makeChart( "chartdiv", {
     "size": 14
   }, {
     "text": "source: Kaggle",
-    "size": 11
+    "size": 8
   } ],
   "areasSettings": {
     //"unlistedAreasColor": "#000000",
@@ -83,3 +83,5 @@ var map = AmCharts.makeChart( "chartdiv", {
     "enabled": true
   }
 } );
+
+};
