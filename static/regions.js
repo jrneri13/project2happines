@@ -1,10 +1,10 @@
-var url = "/addMapData";
+var url = "/addMapData2";
 
 getData();
 
 function getData(){
 
-  Plotly.d3.json('/addMapData', function (error, regionmaphappinessData) {
+  Plotly.d3.json('/addMapData2', function (error, regionmaphappinessData) {
     if (error) return console.warn(error);
     console.log(regionmaphappinessData)
     buildmapcharts(regionmaphappinessData)

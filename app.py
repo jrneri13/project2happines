@@ -18,7 +18,7 @@ app = Flask(__name__)
 #home route for HTML template
 @app.route('/')
 def home():
-    return render_template('index.html')
+    return render_template('map.html')
 
 #provisional welcome page
 # @app.route('/')
@@ -160,8 +160,30 @@ def geoData():
     return jsonify(geoData)
 
 #blank routes
-@app.route('/addMapData2')
+@app.route('/addMapData')
 def addMapData():
+    results = session.query(happinessData).all()
+
+    all_country_scores = []
+    for country in results:
+        countries_dic = {}
+        countries_dic['country'] = country.Country
+        countries_dic['happiness_score'] = country.Score 
+        countries_dic['GDP'] = country.GDP 
+        countries_dic['Family'] = country.Family
+        countries_dic['life_expectancy'] = country.LifeExpectancy 
+        countries_dic['freedom'] = country.Freedom
+        countries_dic['generosity'] = country.Generosity
+        countries_dic['trust'] = country.Trust
+        countries_dic['rank'] = country.Rank
+        countries_dic['country_code'] = country.CountryCode
+        countries_dic['latitude'] = country.Latitude
+        countries_dic['longitude'] = country.Longitude
+        all_country_scores.append(countries_dic)
+    return jsonify(all_country_scores)
+
+@app.route('/addMapData2')
+def addMapData2():
     results = session.query(happinessData).all()
 
     all_country_scores = []
